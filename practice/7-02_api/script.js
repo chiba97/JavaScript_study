@@ -18,8 +18,8 @@ function utcToJSTime(utcTime) {
 }
 
 function ajaxRequest(lat, long) {
-  const url = 'https:///api.openweathermap.org/data/2.5/forecast'
-  const appId = '1520d3a02a6b818c0d776a1df8d197cc'
+  const url = 'key'
+  const appId = 'appId'
 
   $.ajax({
     url: url,
